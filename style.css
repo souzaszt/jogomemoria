@@ -3,14 +3,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("imgs/fundo.png");
+    background-image: url("imgs/fundo\ \(1\).png");
     background-size: cover;
 }
 
 h1 {
     font-family: 'Undertale';
     color: white; 
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .tabu {
@@ -22,6 +22,8 @@ h1 {
 }
 
 .tabu td {
+    columns: 90px;
+    align-items: center;
     cursor: pointer;
     background-color: #eee;
 }
