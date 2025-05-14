@@ -1,4 +1,40 @@
 body {
-    background-image: url(fundo.png);
-    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("imgs/fundo.png");
+    background-size: cover;
 }
+
+h1 {
+    font-family: 'Undertale';
+    color: white; 
+    margin-bottom: 20px;
+}
+
+.tabu {
+    border-collapse: collapse;
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.tabu td {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+img{
+    
+    width: 80px;
+}
+
+@font-face {
+    font-family: 'Undertale';
+    src: url('MonsterFriendFore.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
